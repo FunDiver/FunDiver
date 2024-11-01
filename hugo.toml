@@ -1,59 +1,65 @@
-baseURL = "https://example.com"
-title = "Your title"
-themesDir = "themes"
-theme = "hugo-theme-m10c"
-paginate = 8
+baseurl = "https://www.fundive.fun/"
+languageCode = "en-us"
+paginate = 5
 
-[menu]
-  [[menu.main]]
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = true
+  favicon = "img/coding.png"
+  logo = "img/coding.png"
+
+[languages]
+  [languages.en.params]
+  title = "A Developer"
+  subtitle = "A Developer's Website"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params.logo]
+      logoText = "A Developer"
+      logoHomeLink = "/"
+
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
     identifier = "home"
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
-  [[menu.main]]
+
+  [[languages.en.menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/about"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    identifier = "cloudmusic"
+    name = "Cloud Music"
+    url = "/cloudmusic"
     weight = 3
 
-[params]
-  author = "John Doe"
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  menu_item_separator = " - "
-  [[params.social]]
-    icon = "github"
-    name = "Github"
-    url = "https://github.com/gohugoio"
-  [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/gohugoio"
+  [[languages.en.menu.main]]
+    identifier = "privacypolicy"
+    name = "Privacy Policy"
+    url = "/privacypolicy"
+    weight = 4
 
-  # Default theme
-  #[params.style]
-  #  darkestColor = "#242930"
-  #  darkColor = "#353b43"
-  #  lightColor = "#afbac4"
-  #  lightestColor = "#ffffff"
-  #  primaryColor = "#57cc8a"
+# Only for demo deploy perpous
+[module]
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+  [[module.mounts]]
+    source = 'archetypes'
+    target = 'archetypes'
 
-  # Green theme
-  #[params.style]
-  #  darkestColor = "#315659"
-  #  darkColor = "#253031"
-  #  lightColor = "#96a879"
-  #  lightestColor = "#fff"
-  #  primaryColor = "#dad865"
-
-  # Red theme
-  #[params.style]
-  #  darkestColor = "#d35050"
-  #  darkColor = "#212121"
-  #  lightColor = "#d6d6d6"
-  #  lightestColor = "#d3d3d3"
-  #  primaryColor = "#ffffff"
