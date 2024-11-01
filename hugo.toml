@@ -1,4 +1,4 @@
-baseURL = "https://www.fundive.fun/"
+baseURL = "https://fundive.fun/"
 languageCode = "en-us"
 paginate = 5
 
