@@ -1,65 +1,6 @@
 baseURL = "https://fundive.fun/"
 languageCode = "en-us"
-paginate = 5
+title = "FunDiver"
+disableKinds = ["home", "taxonomy", "term", "RSS", "sitemap"]
 
-[params]
-  contentTypeName = "posts"
-  themeColor = "orange"
-  showMenuItems = 5
-  fullWidthTheme = false
-  centerTheme = true
-  favicon = "img/coding.png"
-  logo = "img/coding.png"
-
-[languages]
-  [languages.en.params]
-  title = "A Developer"
-  subtitle = "A Developer's Website"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-  [languages.en.params.logo]
-      logoText = "A Developer"
-      logoHomeLink = "/"
-
-
-[languages.en.menu]
-  [[languages.en.menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
-  [[languages.en.menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 2
-
-  [[languages.en.menu.main]]
-    identifier = "cloudmusic"
-    name = "Cloud Music"
-    url = "/cloudmusic"
-    weight = 3
-
-  [[languages.en.menu.main]]
-    identifier = "privacypolicy"
-    name = "Privacy Policy"
-    url = "/privacypolicy"
-    weight = 4
-
-# Only for demo deploy perpous
-[module]
-  [[module.mounts]]
-    source = 'static'
-    target = 'static'
-  [[module.mounts]]
-    source = 'layouts'
-    target = 'layouts'
-  [[module.mounts]]
-    source = 'archetypes'
-    target = 'archetypes'
-
+# Existing GitHub Pages workflow copies everything in static/ to public/.
