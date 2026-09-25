@@ -1,4 +1,4 @@
-# FunDiver website
+# YU JIXUN website
 
 The source for [fundive.fun](https://fundive.fun/). This is a small static site served through Hugo. The existing GitHub Actions workflow publishes it to GitHub Pages whenever `main` changes.
 

@@ -1,6 +1,6 @@
 baseURL = "https://fundive.fun/"
 languageCode = "en-us"
-title = "FunDiver"
+title = "YU JIXUN"
 disableKinds = ["home", "taxonomy", "term", "RSS", "sitemap"]
 
 # Existing GitHub Pages workflow copies everything in static/ to public/.
