@@ -15,9 +15,9 @@ Then open `http://localhost:4173/`.
 - `static/index.html`: Cloud Music landing page
 - `static/cloudmusic/index.html`: app features
 - `static/about/index.html`: developer information
-- `static/privacypolicy/index.html`: existing privacy policy, carried over from the previous site
+- `static/privacypolicy/index.html`: privacy information aligned with the app's App Store disclosure
 - `static/posts/`: redirects for old article URLs
 - `static/assets/`: shared styles, small navigation script, and artwork
 - `static/CNAME` and `static/app-ads.txt`: existing domain and ads verification
 
-The illustrated player on the home page is a design illustration, not a screenshot of the app. Add a verified store URL and real product screenshots when they are available.
+App Store screenshots and the app icon in `static/assets/app/` come from the public listing for Cloud Music Player - Listener (App Store ID 1054011814). Refresh them when the listing artwork changes.
