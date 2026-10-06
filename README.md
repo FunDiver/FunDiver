@@ -14,12 +14,12 @@ Then open `http://localhost:4173/`.
 
 - `static/index.html`: Cloud Music landing page
 - `static/cloudmusic/index.html`: app features
-- `static/about/index.html`: developer information
-- `static/privacypolicy/index.html`: privacy information aligned with the app's App Store disclosure
+- `static/about/index.html`: developer information, support email, and expandable FAQs
+- `static/privacypolicy/index.html`: privacy information for the app and its SDKs (App Store privacy disclosure is managed separately)
 - `static/posts/`: redirects for old article URLs
 - `static/assets/`: shared styles, small navigation script, and artwork
 - `static/CNAME` and `static/app-ads.txt`: existing domain and ads verification
 
-App Store screenshots and the app icon in `static/assets/app/` come from the public listing for Cloud Music Player - Listener (App Store ID 1054011814). Refresh them when the listing artwork changes.
+The app icon and older artwork in `static/assets/app/` come from the public listing for Cloud Music Player - Listener (App Store ID 1054011814). `static/assets/app/v6-7/` contains compressed WebP previews from the developer’s version 6.7 screenshot set, plus the original CarPlay capture. The program-rendered previews illustrate an example library and selected themes; they are labeled as previews on the website. They do not represent a bundled music catalog. Refresh these assets when the interface changes.
 
 The cloud service marks in `static/assets/clouds/` are stored locally. Sources: [Google Drive product logo](https://developers.google.com/workspace/drive/api/guides/branding), [Dropbox brand logo](https://brand.dropbox.com/logo), and [Microsoft OneDrive icon](https://commons.wikimedia.org/wiki/File:Microsoft_OneDrive_Icon_(2025_-_present).svg).
