@@ -48,6 +48,9 @@ if (preview) {
       picture.src = button.dataset.preview;
       picture.alt = button.querySelector('img').alt;
       preview.querySelector('#preview-title').textContent = button.dataset.caption;
+      preview.classList.toggle('is-landscape', button.dataset.previewWide === 'true');
+      const note = preview.querySelector('.preview-note');
+      if (note) note.textContent = button.dataset.note || 'App preview · Example music library';
       preview.showModal();
     });
   });
@@ -58,3 +61,11 @@ if (preview) {
       event.clientY < bounds.top || event.clientY > bounds.bottom)) preview.close();
   });
 }
+
+// Open a directly linked help answer when arriving from the feature page.
+const revealLinkedAnswer = () => {
+  const answer = document.getElementById(location.hash.slice(1));
+  if (answer && answer.tagName === 'DETAILS') answer.open = true;
+};
+window.addEventListener('hashchange', revealLinkedAnswer);
+revealLinkedAnswer();

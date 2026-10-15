@@ -21,3 +21,14 @@
 @media(max-width:1000px) and (min-width:761px){.cloudmusic-hero .hero-inner{gap:24px;min-height:620px}.cloudmusic-hero .hero-art{height:570px}.cloudmusic-hero .phone-back{width:190px;left:0;top:75px}.cloudmusic-hero .phone-front{width:225px;right:0;top:20px}}
 @media(max-width:760px){.cloudmusic-hero .hero-inner{grid-template-columns:minmax(0,1fr);min-height:0;gap:0}.cloudmusic-hero .hero-art{order:-1;height:520px;width:390px;max-width:100%;margin:24px auto 0}.cloudmusic-hero .phone-back{width:185px;left:12px;top:48px}.cloudmusic-hero .phone-front{width:215px;right:12px;top:12px}.cloudmusic-hero .hero-copy{padding:18px 0 45px}.cloudmusic-hero h1{font-size:44px}.cloudmusic-hero .hero-copy .eyebrow{margin-bottom:15px}.cloudmusic-hero .hero-lede{margin-bottom:22px}}
 @media(max-width:360px){.cloudmusic-hero .hero-art{height:485px}.cloudmusic-hero .phone-back{width:168px;left:8px}.cloudmusic-hero .phone-front{width:198px;right:8px}.cloudmusic-hero h1{font-size:40px}}
+
+/* Native 6.7.7 previews and a full-width CarPlay showcase. */
+.carplay-feature{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px;align-items:center}
+.carplay-feature>*{min-width:0}.carplay-feature figure{margin:0}.carplay-open{border-radius:18px}.carplay-feature figcaption{font-size:12px;color:var(--muted);line-height:1.6;margin-top:12px}
+.release-badge{display:inline-block;margin:0 0 14px;padding:5px 10px;border-radius:20px;background:#e7f0cd;color:#3d5222;font-size:11px;font-weight:700;letter-spacing:.02em}
+.letter-index-feature .feature-number{margin-bottom:10px}.feature-help-link{display:inline-block;font-size:13px;font-weight:600;color:#65468e;margin-top:16px;text-decoration:underline;text-underline-offset:4px}
+.preview-dialog.is-landscape{width:1000px}.preview-dialog.is-landscape .preview-image{width:100%;height:auto;max-width:100%}
+#letter-index{scroll-margin-top:105px}#letter-index:target{background:#edf0e8;border-radius:12px;padding-inline:16px}
+@media(max-width:760px){.carplay-feature{grid-template-columns:minmax(0,1fr);gap:22px}.carplay-feature figcaption{font-size:11px}}
+
+.hero-preview-note{font-size:12px;color:#d5dfc6;margin-top:-12px;margin-bottom:22px}

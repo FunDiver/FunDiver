@@ -31,6 +31,11 @@ Keep `/`, `/cloudmusic/`, `/about/`, `/privacypolicy/` and `/posts/` legacy redi
 
 For a new app, choose a permanent slug, add its detail page and `/<slug>/privacy/`, and list it on the homepage and privacy directory. Base its policy on that app’s verified data practices; do not copy Cloud Music’s SDK claims as a universal policy. Keep existing slugs stable after display names change. Update sitemap.xml and support content. App Store privacy labels must be completed separately for each app. Cloud Music disclosure currently appears both at the legacy policy URL and the dedicated URL; update both together when its data practices change.
 
-Website galleries currently display iPhone captures and the CarPlay poster only. The iPad showcase was removed at the developer’s request; do not re-add iPad screenshot sections without a new request. The app still supports iPad.
+Website galleries display nine iPhone captures; CarPlay uses the original landscape capture in its own full-width feature panel. The iPad showcase was removed at the developer’s request; do not re-add iPad screenshot sections without a new request. The app still supports iPad.
 
 The Cloud Music detail page leads with the native Player and Songs screenshots. On mobile, the images appear before the headline; the complete ten-image gallery follows the hero before the feature descriptions.
+
+
+## October 15, 2026 preview refresh
+
+`static/assets/app/v6-7-7/` contains proportionally resized WebP framebuffer captures from the unchanged 6.7.7 screenshot edition: the real letter rail with a temporary 60-song example library and the player with complete aspect-fit artwork. These are explicitly labelled as previews of the upcoming update while the verified public App Store version is 6.7.5. The new feature card and FAQ explain the 50-song threshold, title/artist sorting, multiple initials, and search hiding. Do not replace preview wording with availability claims until release is verified. The full-size captures, source app and layout evidence stay in the Cloud Music QA workspace; app code, private QA libraries and build artifacts are not part of this website repository.
