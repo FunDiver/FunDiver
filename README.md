@@ -39,3 +39,10 @@ The Cloud Music detail page leads with the native Player and Songs screenshots. 
 ## October 15, 2026 preview refresh
 
 `static/assets/app/v6-7-7/` contains proportionally resized WebP framebuffer captures from the unchanged 6.7.7 screenshot edition: the real letter rail with a temporary 60-song example library and the player with complete aspect-fit artwork. These are explicitly labelled as previews of the upcoming update while the verified public App Store version is 6.7.5. The new feature card and FAQ explain the 50-song threshold, title/artist sorting, multiple initials, and search hiding. Do not replace preview wording with availability claims until release is verified. The full-size captures, source app and layout evidence stay in the Cloud Music QA workspace; app code, private QA libraries and build artifacts are not part of this website repository.
+
+
+## Thailand Expat Assistant — November 6, 2026
+
+The app collection now includes Thailand Expat Assistant (外籍居民助手), currently in internal testing. Stable pages are `/thailand-expat-assistant/`, `/thailand-expat-assistant/support/` and `/thailand-expat-assistant/privacy/`. Privacy choices are at the policy’s `#choices` anchor, with Chinese at `#zh-choices`. The dedicated English and Simplified Chinese policy is based on the app’s on-device records/OCR, optional native REST Firebase Authentication/Firestore usage summaries and text feedback, user-confirmed email photos, Apple location/geocoding, public GitHub reference downloads, Frankfurter requests and user-directed exports. No personal screenshots, private app source, credentials, or app build artifacts are published. The elephant icon is the app’s branding asset. Cloud Music’s privacy disclosures and existing URLs remain separate. App Store privacy labels must still be completed separately.
+
+The shared website header and footer use **App Support**, with no personal-name badge. Developer identity and contact details remain in the relevant legal and about content.
